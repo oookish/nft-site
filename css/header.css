@@ -1,0 +1,30 @@
+.header {
+  color: #fff;
+  position: relative;
+  min-height: 940px;
+  padding-top: 44px;
+  background: linear-gradient(132.05deg, #428e5f -17.38%, #112120 78.4%),
+    #204434;
+}
+
+.header a {
+  color: #fff;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 96px;
+  background-image: url(../img/Header/header-bottom.svg);
+}
+
+.header__top {
+  margin-bottom: 86px;
+}
+
+.header__content {
+  max-width: 592px;
+}

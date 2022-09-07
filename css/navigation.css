@@ -1,0 +1,62 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 80px;
+}
+
+.nav__logo {
+}
+
+.nav__list {
+  display: flex;
+  column-gap: 80px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.nav__list a {
+  position: relative;
+}
+
+.nav__list a.active::after,
+.nav__list a:hover::after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  left: 0;
+  bottom: -7px;
+  display: block;
+  /* width: 35px; */
+  height: 4px;
+  background-color: #c4c4c4;
+  border-radius: 100px;
+}
+
+.nav__login {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btn {
+  display: inline-block;
+  padding: 13px 44px;
+  font-size: 15px;
+  font-weight: 500;
+  background: linear-gradient(129.54deg, #ff7b4e 15.57%, #ff584e 95.03%),
+    #ffffff;
+  border-radius: 100px;
+}
+
+.btn:hover {
+  color: #0F1F1C;
+  transition: color 0.2s ease-in;
+}
